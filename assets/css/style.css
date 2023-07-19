@@ -38,7 +38,8 @@ h1 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -67,8 +68,35 @@ h1 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 
 }
+
+#cover-text,
+#cover-text h2 {
+    color: #FF0000;
+}
+
+#cover-text {
+    font-family: Oswald, sans-serif;
+    font-size: 150%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    float: right;
+
+    width: 700px;
+    height: 50px;
+
+    padding-top: 100px;
+    padding-left: 15px;
+
+    bottom: 450px;
+    right: 90px;
+
+    position: absolute;
+    
+}
+
 
 #hero-image {
     height: 600px;
@@ -89,8 +117,7 @@ h1 {
         transform: scale(1);
 
     }
-    to{
-        transform: scale(1.1)
-
+    to {
+        transform: scale(1.1);
     }
 }

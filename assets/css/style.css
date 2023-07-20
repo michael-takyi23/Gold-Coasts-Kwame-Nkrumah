@@ -20,6 +20,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
+    clear: both;
 }
 
 h1 {
@@ -77,10 +78,8 @@ h1 {
 
 }
 
-#cover-text,
 #cover-text h2 {
-    color: #FF0000;
-    
+    color: black;
 }
 
 #cover-text {
@@ -89,15 +88,17 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
     float: right;
-
-    width: 700px;
+    line-height: 50px;
+    color: #252525;
+    
+    width: 400px;
     height: 80px;
 
-    padding-top: 100px;
-    padding-left: 15px;
+    padding-top: 40px;
+    padding-right: 33px;
 
-    bottom: 450px;
-    right: 90px;
+    bottom: 0 auto;
+    right: 80px;
 
     position: absolute;
     
@@ -138,7 +139,6 @@ h1 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-about {
@@ -149,9 +149,40 @@ h1 {
 }
 
 #center-about {
-    padding-top: 10px;
+    padding-top: 20px;
         width: 33%;
         margin: 0 auto;
         background-color: green;
 }
 
+hr {
+    border-top: 1px solid black;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 90%;
+    float: right;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 20px;
+
+}
+
+.right-about-heading {
+    width: 90%;
+    float: left;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 20px;
+
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}

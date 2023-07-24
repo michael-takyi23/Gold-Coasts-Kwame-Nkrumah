@@ -8,8 +8,8 @@
 
 body {
     font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
+    font-weight: 400;
+    color: #070707;
 }
 
 
@@ -222,4 +222,28 @@ hr {
     margin: 0 auto;
     
  }
+
+ /* presidency */
+
+ #presidency {
+    height: 600px;
+    padding-top: 25px;
+    margin-left: 38px;
+    display: flex;
+ }
+
+
+ .presidency-heading hr {
+    width: 38%;
+ }
+
+ #presidency p {
+    text-align: justify;
+    margin-right: 35px;
+    display: flex;
+    letter-spacing: 1.5px;
+    padding-bottom: 20px;
+ }
+
+
 

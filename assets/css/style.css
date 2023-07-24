@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display= swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Oswald&display= swap');
 
 * {
     margin: 0;
@@ -239,8 +239,7 @@ hr {
 
  #presidency p {
     text-align: justify;
-    margin-right: 35px;
-    display: flex;
+    margin-right: 40px;
     letter-spacing: 1.5px;
     padding-bottom: 20px;
  }

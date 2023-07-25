@@ -256,8 +256,18 @@ hr {
     width: 100%;
  }
 
+ footer a {
+    text-decoration: none;
+    color: red;
+ }
+
+ footer a:hover {
+    text-decoration: underline;
+ }
+
+
  footer span {
-    margin: 0 auto;
+     margin: 0 5px;
  }
 
 

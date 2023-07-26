@@ -131,31 +131,31 @@ h1 {
     }
 }
 
-/* About */
+/* Early Life */
 
-#about {
+#early {
     height: 500px;
 }
 
-.about-container {
+.early-container {
     display: flex;
     justify-content: center; 
     
 }
 
-#left-about {
+#left-early {
     padding-top: 25px;
     flex: 1;
     margin-left: 38px;
 }
 
-#right-about {
+#right-early {
     padding-top: 25px;
     flex: 1;
     margin-left: 20px;
 }
 
-#center-about {
+#center-early {
     padding-top: 20px;
     flex: 1;
     display: flex;
@@ -175,24 +175,24 @@ hr {
     margin: 10px 0;  
 }
 
-.left-about-heading {
+.left-early-heading {
     width: 90%;
     line-height: 30px;
     margin-bottom: 20px;
 }
 
-.right-about-heading {
+.right-early-heading {
     width: 90%;
     line-height: 30px;
     margin-bottom: 20px;
     text-align: right;
 }
 
-.right-about-heading p {
+.right-early-heading p {
     text-align: right;
 }
 
-.right-about-heading h2 {
+.right-early-heading h2 {
     text-align: right;
 }
 

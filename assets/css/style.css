@@ -226,7 +226,7 @@ hr {
  /* presidency */
 
  #presidency {
-    height: 600px;
+    height: 500px;
     padding-top: 25px;
     margin-left: 38px;
     display: flex;
@@ -247,27 +247,33 @@ hr {
  /* footer */
 
  footer {
-    background-color: #f0f0f0;
-    padding: 20px;
+    background-color: #eb1f1f;
+    padding: 50px;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     position: static;
     bottom: 0;
     width: 100%;
+    color: #fff
  }
 
  footer a {
     text-decoration: none;
-    color: red;
+    color: #fff;
+    margin: 0 10px;
+ }
+
+ footer span {
+     margin: 0 5px;
+ }
+
+ footer p {
+    margin-top: 10px;
  }
 
  footer a:hover {
     text-decoration: underline;
- }
-
-
- footer span {
-     margin: 0 5px;
+    color: #000;
  }
 
 

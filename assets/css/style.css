@@ -10,6 +10,8 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 400;
     color: #070707;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -82,6 +84,10 @@ h1 {
 
 #cover-text h2 {
     color: black;
+}
+
+#cover-text > h2:hover {
+    color: red;
 }
 
 #cover-text {
@@ -274,11 +280,12 @@ hr {
  /* gallerx */
 
  #photos {
-    line-height: 0;
-    column-count: 3;
+    line-height: -10px;
+    column-count: 4;
+    column-gap: 10px;
     clear: both;
-    column-gap: 1px;
-    
+    background-color: #070707;
+    width: 100vw;
  }
 
  #photos img {

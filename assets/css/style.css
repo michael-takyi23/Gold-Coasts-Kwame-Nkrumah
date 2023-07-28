@@ -229,7 +229,8 @@ hr {
 
  #presidency {
     height: 500px;
-    padding-top: 25px;
+    flex: 1;
+    padding-top: 30px;
     margin-left: 38px;
  }
 

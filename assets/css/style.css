@@ -87,31 +87,32 @@ h1 {
 
 #cover-text h2 {
     color: white;
-    background-color: black;
-}
-
-#cover-text h2:hover {
-    color: white;
+    background-color: rgba(255, 0, 0, 0.6);
 }
 
 #cover-text {
     font-family: Oswald, sans-serif;
     font-size: 100%;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     line-height: 50px;
     color: #252525;
     
-    width: 400px;
-    height: 80px;
+    width: 300px;
+    height: 100px;
 
-    padding-top: 40px;
-    padding-right: 50px;
+    padding-bottom: 100px;
+    padding-top: 300px;
+    padding-right: 60px;
+    padding-left: 30px;
     left: 100px;
 
     position: absolute;
 }
 
+#cover-text h2:hover {
+    color: black;
+}
 
 #hero-image {
     height: 500px;

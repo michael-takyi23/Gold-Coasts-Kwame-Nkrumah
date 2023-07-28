@@ -78,7 +78,7 @@ h1 {
 /* hero image */
 
 #hero-outer {
-    height: 600px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -86,16 +86,17 @@ h1 {
 }
 
 #cover-text h2 {
-    color: black;
+    color: white;
+    background-color: black;
 }
 
-#cover-text > h2:hover {
-    color: red;
+#cover-text h2:hover {
+    color: white;
 }
 
 #cover-text {
     font-family: Oswald, sans-serif;
-    font-size: 120%;
+    font-size: 100%;
     text-transform: uppercase;
     letter-spacing: 4px;
     line-height: 50px;
@@ -106,10 +107,9 @@ h1 {
 
     padding-top: 40px;
     padding-right: 50px;
-    right: 80px;
+    left: 100px;
 
     position: absolute;
-
 }
 
 

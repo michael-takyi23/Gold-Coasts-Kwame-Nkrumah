@@ -232,7 +232,9 @@ hr {
     height: 600px;
     flex: 1;
     padding: 5%;
-    margin-left: 38px;
+    margin: 0 auto;
+    background-color: lightyellow;
+    background: cover;
  }
 
 
@@ -243,7 +245,7 @@ hr {
  #presidency p {
     text-align: flex;
     margin-right: 40px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     padding-bottom: 10px;
  }
 

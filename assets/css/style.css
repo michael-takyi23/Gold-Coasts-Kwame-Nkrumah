@@ -148,6 +148,7 @@ h1 {
 .early-container {
     display: flex;
     justify-content: center; 
+    padding: 5%;
     
 }
 
@@ -230,7 +231,7 @@ hr {
  #presidency {
     height: 500px;
     flex: 1;
-    padding-top: 30px;
+    padding: 5%;
     margin-left: 38px;
  }
 
@@ -297,3 +298,9 @@ hr {
  #photos img:hover {
      transform: scale(1.1);
  }
+
+
+ /* media queries */
+
+ 
+ 

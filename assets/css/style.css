@@ -116,7 +116,7 @@ h1 {
 }
 
 #hero-image {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     opacity: 0.8;
@@ -142,7 +142,7 @@ h1 {
 /* Early Life */
 
 #early {
-    height: 500px;
+    height: 600px;
 }
 
 .early-container {
@@ -229,7 +229,7 @@ hr {
  /* presidency */
 
  #presidency {
-    height: 500px;
+    height: 600px;
     flex: 1;
     padding: 5%;
     margin-left: 38px;

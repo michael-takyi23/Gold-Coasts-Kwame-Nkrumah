@@ -298,5 +298,62 @@ h1 {
 
  /* media queries */
 
- 
- 
+ /* for screen sizes lager than 1200px wide and down */
+
+ @media (max-width: 1200px) {
+     #logo {
+         font-size: 220%;
+         margin-left: 15px;
+     }
+
+     #menu {
+         font-size: 100%;
+     }
+
+     #menu li {
+         margin-right: 20px;
+     }
+
+     #hero-outer,
+     #hero-image {
+         height: 500px;
+     }
+
+     #cover-text {
+         width: 400px;
+         padding-top: 250px;
+         padding-right: 30px;
+         padding-left: 20px;
+     }
+
+     #early,
+     #presidency {
+         height: 500px;
+     }
+
+     .early-container {
+         flex-direction: column;
+     }
+
+     #left-early,
+     #right-early,
+     #center-early {
+         margin-left: 0;
+         margin-bottom: 20px;
+     }
+
+     #circle-container {
+         width: 300px;
+         height: 300px;
+     }
+
+     footer {
+         font-size: 22px;
+     }
+
+     #photos {
+         column-count: 3;
+     }
+ }
+
+ /*for medium screen sizes 950px wide and down */

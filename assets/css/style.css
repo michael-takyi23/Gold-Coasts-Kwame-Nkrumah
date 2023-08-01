@@ -364,3 +364,66 @@ h1 {
          column-count: 3;
      }
  }
+
+
+ /* for screens 600px */
+
+ @media only screen and (max-width: 600px){
+
+ #logo {
+     font-size: 100%;
+     padding-left: 1%;
+     height: 1%;
+     margin: 5%;
+    }
+
+     #menu {
+        font-size: 100%;
+        height: 10px;
+        flex-direction: column;
+        margin: 5%;
+        }
+
+        h2 {
+            letter-spacing: 2px;
+        }
+    
+     #hero-outer,
+     #hero-image {
+        height: 600px;
+     }
+
+     .custom-hr {
+        display: none;
+     }
+
+    .right-early-heading {
+         width: 100%;
+         text-align: center;
+        }
+
+    .right-early-heading p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .left-early-heading {
+        text-align: center;
+        margin-bottom: 20%;
+    }
+
+    .left-early-heading p {
+        width: 100%;
+        text-align: justify;
+    }
+     
+    #presidency {
+        text-align: center;
+    }
+
+    #presidency p {
+        text-align: justify;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

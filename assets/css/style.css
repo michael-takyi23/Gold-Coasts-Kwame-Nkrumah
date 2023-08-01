@@ -223,12 +223,10 @@ h1 {
  /* presidency */
 
  #presidency {
-    height: 600px;
     flex: 1;
     padding: 5%;
     margin: 0 auto;
     background-color: lightyellow;
-    background: cover;
  }
 
 
@@ -237,7 +235,6 @@ h1 {
  }
 
  #presidency p {
-    text-align: flex;
     margin-right: 40px;
     line-height: 25px;
     padding-bottom: 10px;
@@ -447,7 +444,6 @@ h1 {
      
     #presidency {
         text-align: center;
-        margin: 1em;
         background-size: cover;
     }
 

@@ -325,6 +325,7 @@ h1 {
      #hero-outer,
      #hero-image {
          height: 600px;
+         width: 100%;
      }
 
      #cover-text {
@@ -362,7 +363,8 @@ h1 {
      }
 
      .right-early-heading,
-     .left-early-heading {
+     .left-early-heading 
+     .presidency-heading {
         margin: 1em;
         padding-bottom: 1em;
      }

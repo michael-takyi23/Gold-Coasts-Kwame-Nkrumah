@@ -459,3 +459,22 @@ h1 {
         column-count: 2;
     }
 }
+
+/* Large desktop screens (1800px and up) */
+
+@media only screen and (min-width: 1800px) {
+    #hero-outer,
+    #hero-image {
+       height: 600px;
+        width: 100%;  
+    }
+    
+    #cover-text {
+        width: 200px;
+        padding-top: 100px;
+        padding-left: 20px;
+        font-size: 60%;
+        left: 10%; 
+    }
+
+}

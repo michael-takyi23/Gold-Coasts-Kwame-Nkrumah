@@ -462,19 +462,55 @@ h1 {
 
 /* Large desktop screens (1800px and up) */
 
-@media only screen and (min-width: 1800px) {
-    #hero-outer,
-    #hero-image {
-       height: 800px;
-        width: 100%;  
-    }
+ @media only screen and (min-width: 1800px) {
     
-    #cover-text {
-        width: 300px;
-        padding-top: 150px;
-        padding-left: 30px;
-        font-size: 80%;
-        left: 15%; 
-    }
-
+            
+            body {
+                font-size: 18px;
+            }
+    
+            
+            #logo {
+                font-size: 280%;
+                margin-left: 50px;
+            }
+    
+            #menu {
+                font-size: 120%;
+            }
+    
+            
+            #hero-outer,
+            #hero-image {
+                height: 800px;
+            }
+    
+            #cover-text {
+                width: 600px;
+                padding-top: 400px;
+                font-size: 120%;
+                left: 200px;
+            }
+    
+            
+            #early,
+            #presidency {
+                height: 800px;
+            }
+    
+            
+            #circle-container {
+                width: 450px;
+                height: 450px;
+            }
+    
+            
+            footer {
+                font-size: 28px;
+            }
+    
+            
+            #photos {
+                column-count: 5;
+            }
 }

@@ -465,16 +465,16 @@ h1 {
 @media only screen and (min-width: 1800px) {
     #hero-outer,
     #hero-image {
-       height: 600px;
+       height: 800px;
         width: 100%;  
     }
     
     #cover-text {
-        width: 200px;
-        padding-top: 100px;
-        padding-left: 20px;
-        font-size: 60%;
-        left: 10%; 
+        width: 300px;
+        padding-top: 150px;
+        padding-left: 30px;
+        font-size: 80%;
+        left: 15%; 
     }
 
 }

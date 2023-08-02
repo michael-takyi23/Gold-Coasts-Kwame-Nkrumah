@@ -380,7 +380,7 @@ h1 {
  }
 
 
- /* for screens 600px */
+ /* for screens 600px and down */
 
  @media only screen and (max-width: 600px){
 
@@ -453,5 +453,9 @@ h1 {
         padding: 3% 0;
         margin: 0 auto;
 
+    }
+
+    #photos {
+        column-count: 2;
     }
 }

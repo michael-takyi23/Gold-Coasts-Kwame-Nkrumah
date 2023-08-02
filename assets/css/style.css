@@ -466,7 +466,7 @@ h1 {
     
             
             body {
-                font-size: 18px;
+                font-size: 20px;
             }
     
             
@@ -483,13 +483,14 @@ h1 {
             #hero-outer,
             #hero-image {
                 height: 800px;
+                width: auto;
             }
     
             #cover-text {
-                width: 600px;
+                width: 100px;
                 padding-top: 400px;
                 font-size: 120%;
-                left: 200px;
+                left: 50px;
             }
     
             

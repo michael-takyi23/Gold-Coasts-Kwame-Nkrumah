@@ -465,53 +465,55 @@ h1 {
  @media only screen and (min-width: 1800px) {
     
             
-            body {
-                font-size: 20px;
-            }
+     body {
+        font-size: 20px;
+    }
     
             
-            #logo {
-                font-size: 280%;
-                margin-left: 50px;
-            }
+    #logo {
+        font-size: 280%;
+        margin-left: 50px;
+    }
     
-            #menu {
-                font-size: 120%;
-            }
-    
-            
-            #hero-outer,
-            #hero-image {
-                height: 800px;
-                width: auto;
-            }
-    
-            #cover-text {
-                width: 100px;
-                padding-top: 400px;
-                font-size: 120%;
-                left: 50px;
-            }
+
+    #menu {
+        font-size: 120%;
+    }
     
             
-            #early,
-            #presidency {
-                height: 800px;
-            }
+    #hero-outer,
+    #hero-image {
+        height: 800px;
+        width: auto;
+    }
+    
+           
+    #cover-text {
+        width: 100px;
+        padding-top: 400px;
+        font-size: 120%;
+        left: 50px;
+    }
     
             
-            #circle-container {
-                width: 450px;
-                height: 450px;
-            }
+    #early,
+    #presidency {
+        height: 800px;
+    }
     
             
-            footer {
-                font-size: 28px;
-            }
+    #circle-container {
+        width: 450px;
+        height: 450px;
+    }
     
             
-            #photos {
-                column-count: 5;
-            }
+    footer {
+        font-size: 28px;
+    }
+    
+            
+    #photos {
+        column-count: 5;
+    }
 }

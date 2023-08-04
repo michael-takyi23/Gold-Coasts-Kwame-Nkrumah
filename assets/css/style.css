@@ -476,8 +476,8 @@ h1 {
 
     #presidency p {
         text-align: justify;
-        padding: 3% 0;
-        margin: 5% 0;
+        margin-left: 1em;
+        padding-right: 0;
     }
 
     #photos {

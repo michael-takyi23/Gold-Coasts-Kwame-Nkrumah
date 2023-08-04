@@ -360,10 +360,25 @@ h1 {
      }
 
      .right-early-heading,
-     .left-early-heading 
-     .presidency-heading {
+     .left-early-heading, {
         margin: 1em;
         padding-bottom: 1em;
+     }
+
+     #right-early p {
+        text-align: left;
+     }
+
+     #right-early h2 {
+        text-align: left;
+     }
+
+     #presidency h2 {
+        padding-bottom: 1em;
+     }
+
+     .right-early-heading {
+        text-align: left;
      }
 
      #circle-container {
@@ -419,17 +434,21 @@ h1 {
         display: none;
      }
 
-    .right-early-heading h2 {
-         width: 80%;
+    #right-early h2 {
          text-align: center;
-         margin: 0;
-         margin-right: 15%;
+         margin: 1em;
         }
+
+     #center-early {
+        text-align: center;
+        margin: 1em;
+     }   
 
     #right-early p {
         width: 100%;
         text-align: justify;
-        padding-right: 1.5em;
+        padding: 1em;
+
     
     }
 

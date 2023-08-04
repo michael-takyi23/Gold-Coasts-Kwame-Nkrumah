@@ -449,9 +449,7 @@ h1 {
     #right-early p {
         width: 100%;
         text-align: justify;
-        padding: 1em;
-
-    
+        margin: 5% 0;
     }
 
     .left-early-heading {
@@ -479,8 +477,7 @@ h1 {
     #presidency p {
         text-align: justify;
         padding: 3% 0;
-        margin: 0 auto;
-
+        margin: 5% 0;
     }
 
     #photos {

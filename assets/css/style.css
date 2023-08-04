@@ -299,10 +299,11 @@ h1 {
  /* for screen sizes lager than 1200px wide and down */
 
  @media screen and (max-width: 1200px) {
+   
     #logo {
-            font-size: 220%;
-            margin-left: 15px;
-        }
+        font-size: 220%;
+        margin-left: 15px;
+    }
 
      #logo,
      #menu {
@@ -360,7 +361,7 @@ h1 {
      }
 
      .right-early-heading,
-     .left-early-heading, {
+     .left-early-heading {
         margin: 1em;
         padding-bottom: 1em;
      }
@@ -401,8 +402,8 @@ h1 {
  @media only screen and (max-width: 600px){
 
  #logo {
-     font-size: 150%;
-     padding-left: 8%;
+     font-size: 200%;
+     padding-left: 5%;
      height: 0%;
      margin: 10%;
     }
@@ -442,6 +443,7 @@ h1 {
      #center-early {
         text-align: center;
         margin: 1em;
+        padding-bottom: 1em;
      }   
 
     #right-early p {
@@ -485,6 +487,36 @@ h1 {
         column-count: 2;
     }
 }
+
+/* For smaller smart phones 480px*/
+
+@media screen and (max-width: 480px) {
+   
+
+    #logo {
+        font-size: 150%;
+    }
+
+    #hero-image, 
+    #hero-outer {
+        overflow-x: hidden;
+    } 
+
+    #menu {
+        font-size: 80%;
+        height: 50px;
+        margin: 1%;
+        padding: 1em;
+       
+    }
+    
+    #center-early {
+        height: 120px;
+        width: 100%;
+    }
+}
+
+
 
 /* Large desktop screens (1800px and up) */
 

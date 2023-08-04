@@ -82,6 +82,7 @@ h1 {
     width: 100%;
     overflow: hidden;
     position: relative;
+    background-color: lightyellow;
 
 }
 
@@ -406,6 +407,12 @@ h1 {
      #hero-outer,
      #hero-image {
         height: 600px;
+     }
+
+     #cover-text {
+        width: 20em;
+        color: gold;
+        line-height: 30px;
      }
 
      .custom-hr {

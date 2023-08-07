@@ -493,17 +493,19 @@ h1 {
 
     #logo {
         font-size: 150%;
+        padding: 0;
+        margin: 1em;
     }
 
     #hero-image, 
     #hero-outer {
-        overflow-x: hidden;
+        padding: 0;
     } 
 
     #menu {
         font-size: 80%;
         height: 50px;
-        margin: 1%;
+        margin: 0;
         padding: 0;
        
     }

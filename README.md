@@ -55,7 +55,7 @@ The website can be accessed from the following link - [https://michael-takyi23.g
 Information for the content of the page was sourced from the following websites :
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Kwame_Nkrumah#Ghanaian_independence)
-- [Britanica](https://www.britannica.com/biography/Kwame-Nkrumah)
+- [Britannica](https://www.britannica.com/biography/Kwame-Nkrumah)
 - [Youtube Documentary](https://youtu.be/TMY0iTcspNA)
 - The icons used on the site were sourced from [Font Awesome](https://fontawesome.com/).
 

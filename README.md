@@ -61,4 +61,3 @@ Information for the content of the page was sourced from the following websites 
 
 - The hero image was sourced from [https://annenberg.usc.edu/news/spotlight/they-dont-tell-us-about-nkrumah](https://annenberg.usc.edu/news/spotlight/they-dont-tell-us-about-nkrumah)
 - images for the gallery was sources from [Wikipedia](https://en.wikipedia.org/wiki/Kwame_Nkrumah#Ghanaian_independence)
-

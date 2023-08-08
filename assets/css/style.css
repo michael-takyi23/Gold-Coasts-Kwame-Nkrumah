@@ -398,12 +398,12 @@ h1 {
 }
 
 
- /* for screens 600px and down */
+ /* for screens 768px and down */
 
- @media only screen and (max-width: 600px){
+ @media only screen and (max-width: 768px){
 
  #logo {
-     font-size: 200%;
+     font-size: 150%;
      padding-left: 5%;
      height: 0%;
      margin: 10%;

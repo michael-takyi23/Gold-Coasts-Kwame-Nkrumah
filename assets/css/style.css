@@ -499,13 +499,16 @@ h1 {
 
     #logo {
         font-size: 150%;
-        padding: 0;
+        padding-left: 1em;
         margin: 1em;
+        height: 4em;
     }
 
     #hero-image, 
     #hero-outer {
         padding: 0;
+        margin: 0;
+        width: 100%;
     } 
 
     #menu {
@@ -513,7 +516,12 @@ h1 {
         height: 50px;
         margin: 0;
         padding: 0;
-       
+    }
+
+    #menu li {
+        margin-right: 2em;
+        padding: 0;
+        line-height: 32px;
     }
     
     #center-early {

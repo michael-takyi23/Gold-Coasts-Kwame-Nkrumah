@@ -528,9 +528,9 @@ h1 {
     }
 
     #cover-text h2 {
-        width: 300px;
+        width: 75%;
         bottom: 10%;
-        margin: 1em;
+        margin: auto;
         padding: 1em;
     }
     

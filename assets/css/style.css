@@ -21,6 +21,12 @@ body {
 
 /* heading and logo */
 
+header {
+    background-color: lightcyan;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
 h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -251,19 +257,19 @@ h1 {
  /* footer */
 
  footer {
-    background-color: green;
+    background-color: lightcyan;
     padding: 20px;
     text-align: center;
     font-size: 20px;
     width: 100%;
-    color: white;
+    color: black;
     margin-top: auto;
     bottom: 0%;
  }
 
  footer a {
     text-decoration: none;
-    color: black;
+    color: red;
     margin: 0 10px;
  }
 
@@ -277,7 +283,7 @@ h1 {
 
  footer a:hover {
     text-decoration: underline;
-    color: yellow;
+    color: green;
  }
 
 

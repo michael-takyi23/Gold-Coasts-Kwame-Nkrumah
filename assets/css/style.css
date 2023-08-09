@@ -20,6 +20,7 @@ body {
 header {
     background-color:cyan;
     background-size: cover;
+    width: 100vw;
 }
 
 h2 {
@@ -313,8 +314,13 @@ h1 {
 
  @media screen and (max-width: 1200px) {
    
+
+    header {
+        width: 100vw;
+    }
+
     #logo {
-        font-size: 300%;
+        font-size: 200%;
         margin-left: 15%;
         margin-top: 1em;
         margin-right: 10%;
@@ -411,8 +417,12 @@ h1 {
 
  @media only screen and (max-width: 768px){
 
+    header{
+        width: 100%;
+    }
+
  #logo {
-     font-size: 220%;
+     font-size: 180%;
      padding-left: 10%;
      height: 0;
      margin: 10%;
@@ -420,10 +430,9 @@ h1 {
 
 #menu {
     font-size: 100%;
-    height: 5%;
+   line-break: normal;
     margin: 0;
-    padding-right: 20%;
-    gap: 20%;
+    padding: 0;
 }
 
 #menu li {

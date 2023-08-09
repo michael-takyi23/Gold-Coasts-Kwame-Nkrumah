@@ -52,7 +52,6 @@ h1 {
     letter-spacing: 3px;
     position: sticky;
     padding: 0;
-    display: block;
     list-style-type: none;
     gap: 10px;
 }
@@ -124,14 +123,14 @@ h1 {
 }
 
 #hero-image {
-    height: 600px;
+    height: 100%;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
-    opacity: 0.8;
+    opacity: 0.9;
 
     /* animates zoom effects on loading page */
     animation-name: hero-zoom;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -334,7 +333,7 @@ h1 {
 
      #hero-outer,
      #hero-image {
-         height: 600px;
+         height: 100%;
          width: 100%;
      }
 
@@ -429,11 +428,9 @@ h1 {
 
 #menu li {
     width: 50%;
-    padding: 0;
+    padding: 10px 50px 20px;
     margin: 1em;
     line-height: normal;
-    gap: 20%;
-    flex-direction: column;
 }
 
 #hero-outer,
@@ -512,7 +509,7 @@ h1 {
    
     #logo {
         font-size: 120%;
-        line-height: 3em;
+        line-height: 5em;
         margin: auto;
     }
 
@@ -526,10 +523,8 @@ h1 {
 
     #menu li {
         width: 50%;
-        padding-top: 4em;
-        margin: 0;
-        margin: 0 auto;
-        line-height: 1em;
+        padding-bottom: 1em;
+        line-height: 10em;
         padding-left: 1em;
       
     }

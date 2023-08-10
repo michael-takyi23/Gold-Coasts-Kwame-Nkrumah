@@ -1,5 +1,9 @@
 # Gold Coast's Kwame Nkrumah
 
+Here is the wireframe for my project:
+
+![Wireframe of my project](assets/images/wire-frame-mockup.png)
+
 ## Description
 
 This project is a historical exploration into the life and achievements of Dr. Kwame Nkrumah, the first prime minister and president of Ghana. The website provides a coincise account of his early life, education, political career, presidency, and contributions to Ghana and the wider African continent. It offers a blend of engaging narrative and interactive features, offering a dynamic and educational experience.
@@ -57,8 +61,10 @@ The website has been tested on various devices ( desktop, tablet, and mobile ) t
 
 ![accessibility score](assets/images/lighthouse.png)
 
-### Unfixed bug
-- I realised that when i scroll to the right on mobile devices, there is space on the side of the page especially the header which i have tried to adjust but never got it fixed.
+### Bugs
+- I realised that when I scroll to the right on mobile devices, there is white space on the right side of the page especially the header which i have tried to adjust but the problem persisted.
+- I realised I had added width to the footer and a margin of 1em to the header element.
+- removing the width of the footer and the margin of 1em from the header for screens 768px and 468px solved fixed the problem.
 
 ## Deployment
 

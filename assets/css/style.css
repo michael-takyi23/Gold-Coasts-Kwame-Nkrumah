@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Oswald&display= swap');
 
-    *{
-        margin: 0;
-        padding: 0;
-        border: none;
-        box-shadow: none;
-        outline: none;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
 
 body {
     font-family: Lato, sans-serif;
@@ -27,7 +27,7 @@ header {
     background-color: lightcyan;
     background-repeat: no-repeat;
     max-width: 100%;
-    margin:0;
+    margin: 0;
     padding: 0;
     border: none;
 }
@@ -126,7 +126,7 @@ nav {
     letter-spacing: 3px;
     line-height: 40px;
     color: #252525;
-    
+
     width: 500px;
     height: 100px;
 
@@ -163,6 +163,7 @@ nav {
         transform: scale(1);
 
     }
+
     to {
         transform: scale(1.1);
     }
@@ -176,9 +177,9 @@ nav {
 
 .early-container {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     padding: 5%;
-    
+
 }
 
 #left-early {
@@ -197,14 +198,14 @@ nav {
     padding-top: 20px;
     flex: 1;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .custom-hr {
     border: none;
     height: 2px;
     background-color: #ff0000;
-    margin: 10px 0;  
+    margin: 10px 0;
 }
 
 .left-early-heading {
@@ -238,7 +239,8 @@ nav {
     border-radius: 50%;
     margin: 0 auto;
 }
- #circle-cover-bg {
+
+#circle-cover-bg {
     background: url('../images/Flag_of_Ghana.svg.png') no-repeat center center;
     background-size: cover;
     width: 100%;
@@ -246,39 +248,39 @@ nav {
     padding-bottom: 100%;
     border-radius: 50%;
     margin: 0 auto;
-    
- }
 
- /* presidency */
+}
 
- #presidency {
+/* presidency */
+
+#presidency {
     flex: 1;
     padding: 5%;
     margin: 5% 0;
     background-size: cover;
- }
+}
 
- #presidency h2 {
+#presidency h2 {
     padding-left: 1em;
- }
+}
 
 
- .presidency-heading hr {
+.presidency-heading hr {
     width: 38%;
     margin-left: 1%;
- }
+}
 
- #presidency p {
+#presidency p {
     margin-right: 40px;
     line-height: 25px;
     padding-bottom: 10px;
     margin: 1em;
- }
+}
 
- /* footer */
+/* footer */
 
- footer {
-    background-color:lightcyan;
+footer {
+    background-color: lightcyan;
     padding: 1em;
     text-align: center;
     font-size: 20px;
@@ -287,54 +289,54 @@ nav {
     margin-top: 0;
     bottom: 0%;
     height: 100%;
- }
+}
 
- footer a {
+footer a {
     text-decoration: none;
     color: green;
     margin: 0 10px;
- }
+}
 
- footer span {
-     margin: 0 5px;
- }
+footer span {
+    margin: 0 5px;
+}
 
- footer p {
+footer p {
     margin-top: 10px;
- }
+}
 
- footer a:hover {
+footer a:hover {
     text-decoration: underline;
     color: red;
- }
+}
 
 
- /* gallerx */
+/* gallerx */
 
- #photos {
+#photos {
     line-height: 0;
     column-count: 4;
     column-gap: 10px;
     clear: both;
     background-color: #070707;
- }
+}
 
- #photos img {
+#photos img {
     width: 100%;
     transition: transform 0.5s;
- }
+}
 
- #photos img:hover {
-     transform: scale(1.1);
- }
+#photos img:hover {
+    transform: scale(1.1);
+}
 
 
- /* media queries */
+/* media queries */
 
- /* for screen sizes lager than 1200px wide and down */
+/* for screen sizes lager than 1200px wide and down */
 
- @media screen and (max-width: 1200px){
-   
+@media screen and (max-width: 1200px) {
+
     header {
         max-width: 100%;
     }
@@ -347,101 +349,101 @@ nav {
     }
 
     #menu {
-         font-size: 100%;
-     }
-
-     #menu li {
-         margin: 2em;
-         padding-left: 2%;
-         padding-right: 5%;
-         height: 4em;
-     }
-
-     #hero-outer,
-     #hero-image {
-         height: 600px;
-         width: 100%;
-     }
-
-     #cover-text {
-         width: 200px;
-         padding-top: 100px;
-         padding-left: 20px;
-         font-size: 60%;
-         left: 10%;
-     }
-
-     #early,
-     #presidency {
-         height: 600px;
-     }
-
-     .early-container {
-         flex-direction: column;
-     }
-
-     .custom-hr {
-        display: none;
-     }
-
-     #left-early,
-     #right-early,
-     #center-early {
-         margin-left: 0;
-         margin-bottom: 20px;
-     }
-
-     #left-early p,
-     #right-early p {
-        padding-top: 1em;
-     }
-
-     .right-early-heading,
-     .left-early-heading {
-        margin: 1em;
-        padding-bottom: 1em;
-     }
-
-     #right-early p {
-        text-align: left;
-     }
-
-     #right-early h2 {
-        text-align: left;
-     }
-
-     #presidency h2 {
-        padding-bottom: 1em;
-     }
-
-     .right-early-heading {
-        text-align: left;
-     }
-
-     #circle-container {
-         width: 300px;
-         height: 300px;
-     }
-
-     footer {
-         font-size: 22px;
-     }
-
-     #photos {
-         column-count: 3;
-     }
-}
-
- /* for Medium screens 768px */
-
- @media only screen and (max-width: 768px), only screen and (max-width: 468px) {
-
-    body{
-        overflow-x: hidden;
-        overflow-inline: hidden;
+        font-size: 100%;
     }
 
-    header{
+    #menu li {
+        margin: 2em;
+        padding-left: 2%;
+        padding-right: 5%;
+        height: 4em;
+    }
+
+    #hero-outer,
+    #hero-image {
+        height: 600px;
+        width: 100%;
+    }
+
+    #cover-text {
+        width: 200px;
+        padding-top: 100px;
+        padding-left: 20px;
+        font-size: 60%;
+        left: 10%;
+    }
+
+    #early,
+    #presidency {
+        height: 600px;
+    }
+
+    .early-container {
+        flex-direction: column;
+    }
+
+    .custom-hr {
+        display: none;
+    }
+
+    #left-early,
+    #right-early,
+    #center-early {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    #left-early p,
+    #right-early p {
+        padding-top: 1em;
+    }
+
+    .right-early-heading,
+    .left-early-heading {
+        margin: 1em;
+        padding-bottom: 1em;
+    }
+
+    #right-early p {
+        text-align: left;
+    }
+
+    #right-early h2 {
+        text-align: left;
+    }
+
+    #presidency h2 {
+        padding-bottom: 1em;
+    }
+
+    .right-early-heading {
+        text-align: left;
+    }
+
+    #circle-container {
+        width: 300px;
+        height: 300px;
+    }
+
+    footer {
+        font-size: 22px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* for Medium screens 768px */
+
+@media only screen and (max-width: 768px),
+only screen and (max-width: 468px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -449,157 +451,156 @@ nav {
         padding: 10px 0;
         width: 100%;
         clear: both;
-    } 
+    }
 
- #logo {
-    display: block;
-    font-size: 180%;
-    text-align: center;
-    margin: 10px;
-    margin-bottom: 10px;
-    margin-right: 0;
-  }
+    #logo {
+        display: block;
+        font-size: 180%;
+        text-align: center;
+        margin: 10px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
 
- nav {
-    width: 100%;
-    clear: both;
+    nav {
+        width: 100%;
+        clear: both;
+    }
+
+    #menu {
+        display: block;
+        justify-content: center;
+        font-size: 100%;
+        margin: 5px 15px;
+        padding-top: 10%;
+    }
+
+    #menu li {
+        display: inline-block;
+        padding: 0;
+        line-height: 2.5;
+        margin: 0 10px;
+        padding-top: 1em;
+
+    }
+
+    #hero-outer,
+    #hero-image {
+        height: 600px;
+        width: 100%;
+        padding: 0;
+    }
+
+    #cover-text {
+        width: 70%;
+        bottom: 1em;
+        line-height: 32px;
+        margin: 1em;
+    }
+
+    .custom-hr {
+        display: none;
+    }
+
+    #right-early h2 {
+        text-align: center;
+        margin: 1em;
+    }
+
+    #center-early {
+        text-align: center;
+        margin: 1em;
+        padding-bottom: 1em;
+    }
+
+    #right-early p {
+        width: 100%;
+        text-align: justify;
+        margin: 5% 0;
+    }
+
+    .left-early-heading {
+        text-align: center;
+        margin: 1em;
+    }
+
+    #left-early p {
+        width: 100%;
+        text-align: justify;
+        margin: 5% 0;
+    }
+
+    #circle-container {
+        padding: 1em;
+        width: 100%;
+        height: 100%;
+    }
+
+    #presidency {
+        text-align: center;
+        background-size: cover;
+    }
+
+    #presidency p {
+        text-align: justify;
+        margin-left: 1em;
+        padding-right: 0;
+    }
+
+    #photos {
+        column-count: 2;
+    }
+
 }
-
-#menu {
-    display: block;
-    justify-content: center;
-    font-size: 100%;
-    margin: 5px 15px;
-    padding-top: 10%;
- }
-
-#menu li {
-    display: inline-block;
-    padding: 0;
-    line-height: 2.5;
-    margin: 0 10px;
-    padding-top: 1em;
-  
-}
-
-#hero-outer,
-#hero-image {
-    height: 600px;
-    width: 100%;
-    margin: 1em;
-    padding: 0;
-}
-
-#cover-text {
-    width: 70%;
-    bottom: 1em;
-    line-height: 32px;
-    margin: 1em;
-}
-
-.custom-hr {
-    display: none;
-}
-
-#right-early h2 {
-    text-align: center;
-    margin: 1em;
-}
-
-#center-early {
-    text-align: center;
-    margin: 1em;
-    padding-bottom: 1em;
-}   
-
-#right-early p {
-    width: 100%;
-    text-align: justify;
-    margin: 5% 0;
-}
-
-.left-early-heading {
-    text-align: center;
-    margin: 1em;
-}
-
-#left-early p {
-    width: 100%;
-    text-align: justify;
-    margin: 5% 0;
-}
-
-#circle-container {
-    padding: 1em;
-    width: 100%;
-    height: 100%;
-}
-     
-#presidency {
-    text-align: center;
-    background-size: cover;
-}
-
-#presidency p {
-    text-align: justify;
-    margin-left: 1em;
-    padding-right: 0;
-}
-
-#photos {
-    column-count: 2;
-}
-
- }
 
 
 /* Large desktop screens (1800px and up) */
 
- @media only screen and (min-width: 1800px) {
-            
+@media only screen and (min-width: 1800px) {
+
     #logo {
         font-size: 350%;
         margin-left: 50px;
     }
-    
+
 
     #menu {
         font-size: 150%;
     }
-    
-            
+
+
     #hero-outer,
     #hero-image {
         height: 800px;
         width: auto;
     }
-    
-           
+
+
     #cover-text {
         width: 100px;
         padding-top: 400px;
         font-size: 120%;
         left: 50px;
     }
-    
-            
+
+
     #early,
     #presidency {
         height: 800px;
     }
-    
-            
+
+
     #circle-container {
         width: 450px;
         height: 450px;
     }
-    
-            
+
+
     footer {
         font-size: 28px;
     }
-    
-            
+
+
     #photos {
         column-count: 5;
     }

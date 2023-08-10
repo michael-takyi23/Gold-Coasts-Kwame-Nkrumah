@@ -41,6 +41,10 @@ The website is structured into various sections, each focusing on a different as
 
 ![footer](assets/images/footer-mockup.png)
 
+## Features Left to Implement
+
+- In the future I want to implement the hamburger feature for smaller devices for easy accessibility to save enough space on screens.
+
 ## Testing
 
 The website has been tested on various devices ( desktop, tablet, and mobile ) to ensure compatibility and responsiveness. HTML and CSS code has been validated using the W3C Markup Validation Service to avoid any syntax or structural issues.
@@ -49,6 +53,12 @@ The website has been tested on various devices ( desktop, tablet, and mobile ) t
 
 - HTML: No errors were returned when passing through the official [W3C validator](https://validator.w3.org/).
 - CSS: No errors were returned when passing through the official ( Jigsaw ) validator.
+- Accessibility: I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+
+![accessibility score](assets/images/lighthouse.png)
+
+### Unfixed bug
+- I realised that when i scroll to the right on mobile devices, there is space on the side of the page especially the header which i have tried to adjust but never got it fixed.
 
 ## Deployment
 
@@ -70,6 +80,8 @@ Information for the content of the page was sourced from the following websites 
 - [Britannica](https://www.britannica.com/biography/Kwame-Nkrumah)
 - [Youtube Documentary](https://youtu.be/TMY0iTcspNA)
 - The icons used on the site were sourced from [Font Awesome](https://fontawesome.com/).
+
+- The code I used for the header and the early life sections and the hero outer and cover text was sourced from CI Love Running project.
 
 ### Media
 

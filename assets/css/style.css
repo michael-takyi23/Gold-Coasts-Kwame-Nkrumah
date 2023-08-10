@@ -15,10 +15,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
-    margin: 0;
-    position: relative;
     background-color: lightyellow;
 }
 
@@ -28,7 +26,7 @@ body {
 header {
     background-color: lightcyan;
     background-repeat: no-repeat;
-    width: 100%;
+    max-width: 100%;
     margin:0;
     padding: 0;
     border: none;
@@ -338,7 +336,7 @@ nav {
  @media screen and (max-width: 1200px){
    
     header {
-        width: 100%;
+        max-width: 100%;
     }
 
     #logo {
@@ -375,7 +373,7 @@ nav {
 
      #early,
      #presidency {
-         height: 500px;
+         height: 600px;
      }
 
      .early-container {
@@ -438,13 +436,20 @@ nav {
 
  @media only screen and (max-width: 768px), only screen and (max-width: 468px) {
 
- header{
+    body{
+        overflow-x: hidden;
+        overflow-inline: hidden;
+    }
+
+    header{
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         padding: 10px 0;
-}
+        width: 100%;
+        clear: both;
+    } 
 
  #logo {
     display: block;
@@ -453,7 +458,7 @@ nav {
     margin: 10px;
     margin-bottom: 10px;
     margin-right: 0;
-}
+  }
 
  nav {
     width: 100%;
@@ -466,8 +471,7 @@ nav {
     font-size: 100%;
     margin: 5px 15px;
     padding-top: 10%;
-   
-}
+ }
 
 #menu li {
     display: inline-block;

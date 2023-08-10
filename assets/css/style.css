@@ -419,26 +419,28 @@ h1 {
 
     header{
         width: 100%;
+        height: 75%;
+        margin: 0;
+        padding: 0;
     }
 
  #logo {
      font-size: 180%;
-     padding-left: 10%;
+     padding-left: 5%;
      height: 0;
      margin: 10%;
 }
 
 #menu {
     font-size: 100%;
-   line-break: normal;
-    margin: 0;
-    padding: 0;
+    margin: 5em;
+    padding-top: 10%;
 }
 
 #menu li {
     width: 50%;
-    padding: 10px 50px 20px;
-    margin: 1em;
+    padding: 0;
+    margin: 0;
     line-height: normal;
 }
 

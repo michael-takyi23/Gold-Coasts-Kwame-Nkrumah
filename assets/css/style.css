@@ -295,7 +295,7 @@ nav {
 
  footer a {
     text-decoration: none;
-    color: red;
+    color: green;
     margin: 0 10px;
  }
 
@@ -309,7 +309,7 @@ nav {
 
  footer a:hover {
     text-decoration: underline;
-    color: green;
+    color: red;
  }
 
 

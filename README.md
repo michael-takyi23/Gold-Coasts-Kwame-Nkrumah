@@ -4,30 +4,42 @@
 
 This project is a historical exploration into the life and achievements of Dr. Kwame Nkrumah, the first prime minister and president of Ghana. The website provides a detailed account of his early life, education, political career, presidency, and contributions to Ghana and the wider African continent. It offers a blend of engaging narrative and interactive features, offering a dynamic and educational experience.
 
-![screenshot of the webpage responsiveness](assets/images/Gold-coasts-kwame-nkrumah-mockup.png)
+![screenshot of the webpage responsiveness](assets/images/gold-coast-mockup.png)
 
 ## Features
 
 The website is structured into various sections, each focusing on a different aspect of Kwame Nkrumah's life:
 
 1. **Home**
-   - The landing page introduces the user to Kwame Nkrumah with a prominent header and heroic image of Kwame Nkrumah and his lifespan.
+   - The landing page introduces the user to Kwame Nkrumah with a prominent header and heroic image of Kwame Nkrumah and and a cover text detailing his lifespan with a hover effect that changes the color for proper contrast and visibility.
    - An intuitive navigation menu, which facilitates quick and easy access to different sections of the website.
+
+![landing page](assets/images/landing-page.png)
 
 2. **Early life**
    - A brief summary of Nkrumah's upbringing and education.
    - An overview of Nkrumah's political journey from the Gold Coast to becoming the first President of Ghana.
 
+![early life](assets/images/early-life-mockup.png)
+
 3. **Presidency**
    - This section dives into Nkrumah's tenure as the President of Ghana and his impact on the nation and his Pan-African vision.
 
+![presidency](assets/images/presidency-mockup.png)
+
 4. **Gallery**
    - A dedicated gallery section, which offers users a visual tour of Dr. Nkrumah's life.
+   - A hover effect that zooms in the images when hovered on. there are no captions only possible with screen reader.
+
+![gallery](assets/images/gallery-section-mockup.png)
 
 5. **Footer**
    - Contains additional resources for further reading.
    - A documentary link to learn more about Kwame Nkrumah's life.
-   - Credit to the developer.
+   - A hover effect which changes the color of the link text to red when hovered on for proper visibility and contrast.
+   - Disclaimer and credit to the developer
+
+![footer](assets/images/footer-mockup.png)
 
 ## Testing
 

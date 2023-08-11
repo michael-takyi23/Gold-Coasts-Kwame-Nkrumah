@@ -60,7 +60,7 @@ The website is structured into various sections, each focusing on a different as
 
 Here is the wireframe for my project:
 
-![Wireframe of my project](assets/images/wire-frame-mockup.png)
+![Wireframe of my project](assets/images/wireframe-mockup.png)
 
 ## Features Left to Implement
 

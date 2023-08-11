@@ -50,6 +50,10 @@ h1 {
     font-size: 250%;
     height: 80px;
     padding-left: 1ch;
+    text-shadow: 1px 1px 0 #ffaaaa,
+        -1px -1px 0 #990000,
+        1px -1px 0 #ffaaaa,
+        -1px 1px 0 #990000;
 }
 
 /* navigation links*/
@@ -269,9 +273,7 @@ footer {
     background-color: lightcyan;
     padding: 1em;
     text-align: center;
-    font-size: 20px;
     color: black;
-    height: 100%;
 }
 
 footer a {
@@ -357,15 +359,6 @@ footer a:hover {
         padding-left: 20px;
         font-size: 60%;
         left: 10%;
-    }
-
-    #early,
-    #presidency {
-        height: 600px;
-    }
-
-    #presidency {
-        padding: 0 2% 10%;
     }
 
     .early-container {

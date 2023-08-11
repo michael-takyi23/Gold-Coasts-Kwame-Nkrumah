@@ -4,7 +4,7 @@
 
 This project is a historical exploration into the life and achievements of Dr. Kwame Nkrumah, the first prime minister and president of Ghana. The website provides an evidence based information mixed with a timeline of his early life, education, political career, presidency, contributions to Ghana and the wider African continent. It offers a blend of engaging narrative and a beautiful gallery offering a dynamic and educational experience.
 
-![screenshot of the webpage responsiveness](assets/images/gold-coast-mockup.png)
+![screenshot of the webpage responsiveness](assets/images/gold-coasts-mockup.png)
 
 ## Purpose 
 

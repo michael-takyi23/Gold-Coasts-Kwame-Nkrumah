@@ -88,6 +88,7 @@ The website has been tested on various devices ( desktop, tablet, and mobile ) t
 This website was deployed to Github pages. The steps to deploy are as follows:
 
 - In the GitHub repository, navigate to the Settings tab
+- Find pages then click on pages and find Build and Deployment
 - From the source section drop-down menu, select the Main Branch
 - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 

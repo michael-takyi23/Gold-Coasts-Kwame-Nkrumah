@@ -1,21 +1,34 @@
 # Gold Coast's Kwame Nkrumah
 
-Here is the wireframe for my project:
-
-![Wireframe of my project](assets/images/wire-frame-mockup.png)
-
 ## Description
 
-This project is a historical exploration into the life and achievements of Dr. Kwame Nkrumah, the first prime minister and president of Ghana. The website provides a coincise account of his early life, education, political career, presidency, and contributions to Ghana and the wider African continent. It offers a blend of engaging narrative and interactive features, offering a dynamic and educational experience.
+This project is a historical exploration into the life and achievements of Dr. Kwame Nkrumah, the first prime minister and president of Ghana. The website provides an evidence based information mixed with a timeline of his early life, education, political career, presidency, contributions to Ghana and the wider African continent. It offers a blend of engaging narrative and a beautiful gallery offering a dynamic and educational experience.
 
 ![screenshot of the webpage responsiveness](assets/images/gold-coast-mockup.png)
+
+## Purpose 
+
+The goal of the site is to provide a reliable source of information pertaining to the history of Dr. Kwame Nkrumah. 
+
+
+## UX Design
+
+### User stories
+
+**As a first time user**
+
+- I want to easily understand the main purpose of the site and learn more about the topic.
+- I am interested in the historical facts surrounding the person.
+- I want to be able to easily navigate and find content.
+
+**All users want to be able to access and comfortably view the website on mobile devices**
 
 ## Features
 
 The website is structured into various sections, each focusing on a different aspect of Kwame Nkrumah's life:
 
 1. **Home**
-   - The landing page introduces the user to Kwame Nkrumah with a prominent header and heroic image of Kwame Nkrumah and and a cover text detailing his lifespan with a hover effect that changes the color for proper contrast and visibility.
+   - The landing page introduces the user to Dr. Kwame Nkrumah with a prominent header and heroic image of Kwame Nkrumah and and a cover text detailing his lifespan with a hover effect that changes the color for proper contrast and visibility.
    - An intuitive navigation menu, which facilitates quick and easy access to different sections of the website.
 
 ![landing page](assets/images/landing-page.png)
@@ -45,9 +58,13 @@ The website is structured into various sections, each focusing on a different as
 
 ![footer](assets/images/footer-mockup.png)
 
+Here is the wireframe for my project:
+
+![Wireframe of my project](assets/images/wire-frame-mockup.png)
+
 ## Features Left to Implement
 
-- In the future I want to implement the hamburger feature for smaller devices for easy accessibility to save enough space on screens.
+- In the future I want to implement the hamburger drop down menu for smaller devices to enable easy accessibility to save enough space on screens.
 
 ## Testing
 

@@ -324,14 +324,18 @@ footer a:hover {
         max-width: 100%;
     }
 
+
     #logo {
-        font-size: 200%;
+        font-size: 220%;
         margin-top: 0;
         margin-right: 5%;
     }
 
     #menu {
-        font-size: 100%;
+        font-size: 110%;
+        line-height: 30px;
+        padding: 5%;
+        margin-right: 10%;
     }
 
     #menu li {

@@ -176,7 +176,6 @@ nav {
     display: flex;
     justify-content: center;
     padding-top: 10%;
-
 }
 
 #left-early {
@@ -252,7 +251,7 @@ nav {
 
 #presidency {
     display: block;
-    padding: 5%;
+    padding: 5% 2% 5% 2%;
     margin: 5% 0;
     background-size: cover;
 }
@@ -268,7 +267,7 @@ nav {
 }
 
 #presidency p {
-    margin-right: 40px;
+    margin-right: 10%;
     line-height: 25px;
     padding-bottom: 10px;
     margin: 1em;

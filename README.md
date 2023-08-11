@@ -28,10 +28,14 @@ The goal of the site is to provide a reliable source of information pertaining t
 The website is structured into various sections, each focusing on a different aspect of Kwame Nkrumah's life:
 
 1. **Home**
-   - The landing page introduces the user to Dr. Kwame Nkrumah with a prominent header and heroic image of Kwame Nkrumah and and a cover text detailing his lifespan with a hover effect that changes the color for proper contrast and visibility.
-   - An intuitive navigation menu, which facilitates quick and easy access to different sections of the website.
+   - The landing page introduces the user to Dr. Kwame Nkrumah.
+   - A prominent header with an etching logo appearance.
+   - An intuitive navigation menu, which facilitates quick and easy access to different sections of the website. 
+   - A heroic image of Dr. Kwame Nkrumah
+   - A cover text detailing his lifespan with a hover effect that changes the color for proper contrast and visibility.
+   
 
-![landing page](assets/images/landing-page.png)
+![landing page](assets/images/landing-page-mockup.png)
 
 2. **Early life**
    - A brief summary of Nkrumah's upbringing and education.

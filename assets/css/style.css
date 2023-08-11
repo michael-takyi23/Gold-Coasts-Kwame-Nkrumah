@@ -12,8 +12,6 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 400;
     color: #070707;
-    display: flex;
-    flex-direction: column;
     min-height: 100%;
     max-width: 100%;
     overflow-x: hidden;
@@ -177,7 +175,7 @@ nav {
 .early-container {
     display: flex;
     justify-content: center;
-    padding: 5%;
+    padding-top: 10%;
 
 }
 
@@ -253,7 +251,7 @@ nav {
 /* presidency */
 
 #presidency {
-    flex: 1;
+    display: block;
     padding: 5%;
     margin: 5% 0;
     background-size: cover;
@@ -339,9 +337,8 @@ footer a:hover {
 
     #logo {
         font-size: 200%;
-        margin-left: 15%;
-        margin-top: 1em;
-        margin-right: 10%;
+        margin-top: 0;
+        margin-right: 5%;
     }
 
     #menu {
@@ -372,6 +369,10 @@ footer a:hover {
     #early,
     #presidency {
         height: 600px;
+    }
+
+    #presidency {
+        padding: 0 2% 10%;
     }
 
     .early-container {
